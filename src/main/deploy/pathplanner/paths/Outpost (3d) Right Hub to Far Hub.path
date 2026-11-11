@@ -1,0 +1,145 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.674,
+        "y": 3.848407871198569
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.674,
+        "y": 3.848407871198569
+      },
+      "isLocked": false,
+      "linkedName": "Right Hub Collect"
+    },
+    {
+      "anchor": {
+        "x": 10.590232558139535,
+        "y": 4.302719141323792
+      },
+      "prevControl": {
+        "x": 10.529598651880448,
+        "y": 4.545254766360127
+      },
+      "nextControl": {
+        "x": 10.65086646439862,
+        "y": 4.06018351628746
+      },
+      "isLocked": false,
+      "linkedName": "Left Hub Opponents"
+    },
+    {
+      "anchor": {
+        "x": 10.882289803220035,
+        "y": 2.8424329159212878
+      },
+      "prevControl": {
+        "x": 10.233273703041144,
+        "y": 3.9295348837209296
+      },
+      "nextControl": {
+        "x": 11.010442282608436,
+        "y": 2.6277775129457153
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.545831842576028,
+        "y": 2.3718962432915918
+      },
+      "prevControl": {
+        "x": 8.70808586762075,
+        "y": 0.6844543828264751
+      },
+      "nextControl": {
+        "x": 8.411654674430352,
+        "y": 3.767338792006621
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.791242236024845,
+        "y": 2.65
+      },
+      "prevControl": {
+        "x": 6.7485409837887085,
+        "y": 2.79602862254025
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Outpost NZ bump sweep"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.1550802139037413,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 1.4652406417112296,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 1.7433155080213913,
+      "rotationDegrees": -44.59237474329258
+    },
+    {
+      "waypointRelativePos": 2.064171122994652,
+      "rotationDegrees": -89.62325016691757
+    },
+    {
+      "waypointRelativePos": 2.3743315508021396,
+      "rotationDegrees": -154.6652030735714
+    },
+    {
+      "waypointRelativePos": 2.994652406417113,
+      "rotationDegrees": 96.78720296837432
+    },
+    {
+      "waypointRelativePos": 3.454545454545464,
+      "rotationDegrees": -162.8390582750016
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.7864406779661018,
+      "maxWaypointRelativePos": 2.3593220338983065,
+      "constraints": {
+        "maxVelocity": 1.3,
+        "maxAcceleration": 8.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 8.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 2.5,
+    "rotation": -160.0
+  },
+  "reversed": false,
+  "folder": "Outpost",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": false
+}

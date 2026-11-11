@@ -1,0 +1,99 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.654427684117125,
+        "y": 7.41
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.624233870967742,
+        "y": 7.388193548387096
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.7653922967189715,
+        "y": 6.934422253922967
+      },
+      "prevControl": {
+        "x": 7.695983500598488,
+        "y": 7.375463078463571
+      },
+      "nextControl": {
+        "x": 8.01399193548387,
+        "y": 5.354758064516128
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.640951612903226,
+        "y": 4.381927419354838
+      },
+      "prevControl": {
+        "x": 8.050564516129032,
+        "y": 4.754967741935484
+      },
+      "nextControl": {
+        "x": 7.165081239751883,
+        "y": 3.9485454723777202
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.791242236024845,
+        "y": 5.5
+      },
+      "prevControl": {
+        "x": 7.144427719895813,
+        "y": 5.551201612903226
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.9901639344262345,
+      "rotationDegrees": -77.35570754280327
+    },
+    {
+      "waypointRelativePos": 1.3737704918032883,
+      "rotationDegrees": -97.61225254922242
+    },
+    {
+      "waypointRelativePos": 2.6065573770491834,
+      "rotationDegrees": 137.26714038199165
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 2.5,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 2.5,
+    "rotation": -135.0
+  },
+  "reversed": false,
+  "folder": "Outpost Flipped",
+  "idealStartingState": {
+    "velocity": 2.5,
+    "rotation": -90.0
+  },
+  "useDefaultConstraints": false
+}

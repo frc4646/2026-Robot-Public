@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.791242236024845,
+        "y": 2.5
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.549394040192176,
+        "y": 2.563320219302237
+      },
+      "isLocked": false,
+      "linkedName": "Outpost NZ bump"
+    },
+    {
+      "anchor": {
+        "x": 3.0,
+        "y": 2.5
+      },
+      "prevControl": {
+        "x": 3.973895328102685,
+        "y": 2.504065609927994
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Outpost AZ bump"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 2.5,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": -40.0
+  },
+  "reversed": false,
+  "folder": "Outpost",
+  "idealStartingState": {
+    "velocity": 2.5,
+    "rotation": 135.0
+  },
+  "useDefaultConstraints": false
+}

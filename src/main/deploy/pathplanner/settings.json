@@ -1,0 +1,46 @@
+{
+  "robotWidth": 0.787,
+  "robotLength": 0.901,
+  "holonomicMode": true,
+  "pathFolders": [
+    "Center",
+    "Depot",
+    "Outpost",
+    "Depot Flipped",
+    "Center Flipped",
+    "Outpost Flipped",
+    "Lose Auto Paths Flipped",
+    "Depot Flipped Flipped"
+  ],
+  "autoFolders": [
+    "The Stash"
+  ],
+  "defaultMaxVel": 2.0,
+  "defaultMaxAccel": 4.0,
+  "defaultMaxAngVel": 540.0,
+  "defaultMaxAngAccel": 720.0,
+  "defaultNominalVoltage": 12.0,
+  "robotMass": 74.088,
+  "robotMOI": 6.883,
+  "robotTrackwidth": 0.546,
+  "driveWheelRadius": 0.049,
+  "driveGearing": 6.122,
+  "maxDriveSpeed": 5.21,
+  "driveMotorType": "krakenX60",
+  "driveCurrentLimit": 60.0,
+  "wheelCOF": 1.2,
+  "flModuleX": 0.307,
+  "flModuleY": 0.25,
+  "frModuleX": 0.307,
+  "frModuleY": -0.25,
+  "blModuleX": -0.307,
+  "blModuleY": 0.25,
+  "brModuleX": -0.307,
+  "brModuleY": -0.25,
+  "bumperOffsetX": 0.0,
+  "bumperOffsetY": 0.0,
+  "robotFeatures": [
+    "{\"name\":\"Rectangle\",\"type\":\"rounded_rect\",\"data\":{\"center\":{\"x\":0.5,\"y\":0.0},\"size\":{\"width\":0.6,\"length\":0.3},\"borderRadius\":0.05,\"strokeWidth\":0.02,\"filled\":false}}",
+    "{\"name\":\"Circle\",\"type\":\"circle\",\"data\":{\"center\":{\"x\":-0.2,\"y\":0.15},\"radius\":0.15,\"strokeWidth\":0.02,\"filled\":false}}"
+  ]
+}

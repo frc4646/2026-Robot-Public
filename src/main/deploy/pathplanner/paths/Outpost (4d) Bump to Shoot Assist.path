@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.5,
+        "y": 2.65
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.4078298269234892,
+        "y": 2.89348138264821
+      },
+      "isLocked": false,
+      "linkedName": "Outpost AZ bump sweep"
+    },
+    {
+      "anchor": {
+        "x": 2.3708784383318537,
+        "y": 3.9746406388642406
+      },
+      "prevControl": {
+        "x": 2.9423339404852333,
+        "y": 2.710464309131659
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Middle Shoot"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 2.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -130.0
+  },
+  "reversed": false,
+  "folder": "Outpost",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -160.0
+  },
+  "useDefaultConstraints": false
+}

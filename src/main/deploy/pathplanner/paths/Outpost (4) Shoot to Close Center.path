@@ -1,0 +1,133 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.6022094055013305,
+        "y": 0.4898935226264416
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.719204323679087,
+        "y": 0.5499285802122028
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.791242236024845,
+        "y": 0.59
+      },
+      "prevControl": {
+        "x": 5.630999396171226,
+        "y": 0.3981088009427023
+      },
+      "nextControl": {
+        "x": 6.017129032258065,
+        "y": 0.8605000000000007
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.6,
+        "y": 1.777203994293866
+      },
+      "prevControl": {
+        "x": 5.622145161290323,
+        "y": 1.3505725806451618
+      },
+      "nextControl": {
+        "x": 5.5333636906832355,
+        "y": 3.0609671817205477
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.095796064400715,
+        "y": 4.010661896243291
+      },
+      "prevControl": {
+        "x": 5.77628598488788,
+        "y": 3.8787422524819473
+      },
+      "nextControl": {
+        "x": 7.471226458071756,
+        "y": 4.57855098389982
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.2,
+        "y": 2.65
+      },
+      "prevControl": {
+        "x": 7.721459016211291,
+        "y": 2.3718962432915918
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Small Pass NZ Pre Bump"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.876843018213339,
+      "rotationDegrees": 90.0
+    },
+    {
+      "waypointRelativePos": 2.3938618925831197,
+      "rotationDegrees": 90.0
+    },
+    {
+      "waypointRelativePos": 3.0281329923273677,
+      "rotationDegrees": 25.723729599934785
+    },
+    {
+      "waypointRelativePos": 3.508951406649615,
+      "rotationDegrees": -100.02499115928006
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 0.8749345892203296,
+      "constraints": {
+        "maxVelocity": 3.5,
+        "maxAcceleration": 4.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 2.5,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.3,
+    "rotation": -160.0
+  },
+  "reversed": false,
+  "folder": "Outpost",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 90.0
+  },
+  "useDefaultConstraints": false
+}

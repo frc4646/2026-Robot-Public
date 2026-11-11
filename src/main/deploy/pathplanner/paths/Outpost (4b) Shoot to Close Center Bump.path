@@ -1,0 +1,135 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.0,
+        "y": 2.5
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.557991935483869,
+        "y": 2.463427419354839
+      },
+      "isLocked": false,
+      "linkedName": "Outpost AZ bump"
+    },
+    {
+      "anchor": {
+        "x": 5.943983870967742,
+        "y": 2.7
+      },
+      "prevControl": {
+        "x": 5.461225806451613,
+        "y": 2.6780564516129037
+      },
+      "nextControl": {
+        "x": 6.83509695660723,
+        "y": 2.74050514025634
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.741266129032258,
+        "y": 4.35683870967742
+      },
+      "prevControl": {
+        "x": 5.99923234730036,
+        "y": 3.693864784805264
+      },
+      "nextControl": {
+        "x": 7.2395354013768785,
+        "y": 4.802019971315532
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.867701612903225,
+        "y": 4.232491935483871
+      },
+      "prevControl": {
+        "x": 7.730124491961312,
+        "y": 4.577064059040298
+      },
+      "nextControl": {
+        "x": 8.07580086488958,
+        "y": 3.7112918938162114
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.3629999999999995,
+        "y": 3.025596774193549
+      },
+      "prevControl": {
+        "x": 7.622765326971655,
+        "y": 3.149146260603923
+      },
+      "nextControl": {
+        "x": 7.137234867713445,
+        "y": 2.9182184474994037
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.791242236024845,
+        "y": 2.5
+      },
+      "prevControl": {
+        "x": 6.253478693444173,
+        "y": 2.4587523617333167
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Outpost NZ bump"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.6393442622950816,
+      "rotationDegrees": -145.0
+    },
+    {
+      "waypointRelativePos": 1.4371584699453588,
+      "rotationDegrees": 98.16579402936735
+    },
+    {
+      "waypointRelativePos": 2.5191256830601043,
+      "rotationDegrees": -19.831300285826554
+    },
+    {
+      "waypointRelativePos": 4.2622950819672205,
+      "rotationDegrees": -152.16583728220036
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 2.5,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 2.0,
+    "rotation": 135.0
+  },
+  "reversed": false,
+  "folder": "Outpost",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -40.0
+  },
+  "useDefaultConstraints": false
+}

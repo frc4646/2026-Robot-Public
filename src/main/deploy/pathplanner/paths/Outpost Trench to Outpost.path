@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.426599702380952,
+        "y": 0.59
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.7081685064659684,
+        "y": 0.6542303736789028
+      },
+      "isLocked": false,
+      "linkedName": "Start-Right"
+    },
+    {
+      "anchor": {
+        "x": 0.75,
+        "y": 0.4962767475035662
+      },
+      "prevControl": {
+        "x": 1.3451783166904427,
+        "y": 0.48333808844507764
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Outpost"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 2.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "Outpost",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

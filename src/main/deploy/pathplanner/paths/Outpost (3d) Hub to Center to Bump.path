@@ -1,0 +1,126 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.5,
+        "y": 4.0
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.113766129032258,
+        "y": 4.0549308384788505
+      },
+      "isLocked": false,
+      "linkedName": "Assist-Hub"
+    },
+    {
+      "anchor": {
+        "x": 8.36508870967742,
+        "y": 3.793620967741936
+      },
+      "prevControl": {
+        "x": 8.306572580645161,
+        "y": 4.100830645161291
+      },
+      "nextControl": {
+        "x": 8.420260131442111,
+        "y": 3.5039710034773
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.050564516129032,
+        "y": 2.828104838709678
+      },
+      "prevControl": {
+        "x": 8.269103835159417,
+        "y": 2.9495155715043357
+      },
+      "nextControl": {
+        "x": 7.832025197098648,
+        "y": 2.70669410591502
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.791242236024845,
+        "y": 2.65
+      },
+      "prevControl": {
+        "x": 7.844018205416516,
+        "y": 2.8821251538300694
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Outpost NZ bump sweep"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5245202558635439,
+      "rotationDegrees": 0.7608644960543716
+    },
+    {
+      "waypointRelativePos": 0.8827292110874178,
+      "rotationDegrees": -64.40757985883074
+    },
+    {
+      "waypointRelativePos": 2.15,
+      "rotationDegrees": -168.94706576421478
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 0.432140445644832,
+      "constraints": {
+        "maxVelocity": 2.0,
+        "maxAcceleration": 4.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    },
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 2.35,
+      "maxWaypointRelativePos": 3.0,
+      "constraints": {
+        "maxVelocity": 3.0,
+        "maxAcceleration": 4.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 2.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 1.3,
+    "rotation": -160.0
+  },
+  "reversed": false,
+  "folder": "Outpost",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": false
+}
